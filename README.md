@@ -26,11 +26,6 @@ Pillow (PIL)
 scikit-learn
 tqdm
 
-# Outputs:
-
-submission.csv: Contains test set predictions with columns image_id and soil_type.
-Plots: Training history (loss and F1 score) and confusion matrix for validation set.
-
 # Code Structure
 
 Config Class: Defines hyperparameters and paths (e.g., image size, batch size, epochs).
