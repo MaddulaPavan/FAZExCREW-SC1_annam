@@ -15,15 +15,15 @@ Prediction: Generates predictions for the test set and saves them in a submissio
 # Requirements
 To run this project, ensure you have the following dependencies installed:
 
-Python 3.6+
-PyTorch
-torchvision
-pandas
-numpy
-matplotlib
-seaborn
-Pillow (PIL)
-scikit-learn
+Python 3.6+,
+PyTorch,
+torchvision,
+pandas,
+numpy,
+matplotlib,
+seaborn,
+Pillow (PIL),
+scikit-learn,
 tqdm
 
 # Code Structure
