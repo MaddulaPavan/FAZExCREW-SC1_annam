@@ -1,5 +1,5 @@
-Soil Classification Challenge
-Overview
+Soil Classification Challenge:
+Overview:
 This project implements a deep learning solution for the Soil Classification Challenge, aiming to classify soil images into four categories: Alluvial soil, Black Soil, Clay soil, and Red soil. The solution uses a pre-trained EfficientNetB0 model with a custom classifier head, trained on a dataset of soil images. The code includes data preprocessing, model training, evaluation, and prediction generation for a test set.
 Features
 
