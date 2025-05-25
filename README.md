@@ -26,30 +26,6 @@ Pillow (PIL)
 scikit-learn
 tqdm
 
-You can install the dependencies using pip:
-pip install torch torchvision pandas numpy matplotlib seaborn pillow scikit-learn tqdm
-
-# Dataset
-The code expects the following dataset structure:
-soil_classification-2025/
-├── train/
-│   └── <image_files>.jpg
-├── test/
-│   └── <image_files>.jpg
-├── train_labels.csv
-└── test_ids.csv
-
-
-train_labels.csv: Contains columns image_id and soil_type for training images.
-test_ids.csv: Contains column image_id for test images.
-train/ and test/: Directories containing the training and test images, respectively.
-
-Update the Config class in the code if your dataset is located elsewhere:
-TRAIN_DIR = '/path/to/train'
-TEST_DIR = '/path/to/test'
-TRAIN_LABELS_FILE = '/path/to/train_labels.csv'
-TEST_IDS_FILE = '/path/to/test_ids.csv'
-
 # Outputs:
 
 submission.csv: Contains test set predictions with columns image_id and soil_type.
